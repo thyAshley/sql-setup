@@ -1,0 +1,6 @@
+------------
+-- Images --
+------------
+
+usually we do not store images in database as it is not a primitive type.
+store on a file server / hard drive and store path in database

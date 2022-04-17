@@ -1,0 +1,4 @@
+Float parenthesis i optional (approx)
+Numeric requires parenthesis (exact)
+postgres don't allow parenthesis in float
+slower performance for such type as more memory is used

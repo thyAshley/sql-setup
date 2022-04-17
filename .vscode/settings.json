@@ -1,0 +1,17 @@
+{
+  "sqltools.connections": [
+    {
+      "mysqlOptions": {
+        "authProtocol": "default"
+      },
+      "previewLimit": 50,
+      "server": "dev-graphql.cwsxliofugyg.us-east-1.rds.amazonaws.com",
+      "port": 3306,
+      "driver": "MySQL",
+      "name": "learn_sql",
+      "database": "auth",
+      "username": "admin",
+      "password": "j70NaWyiPqbxoVEY17PW"
+    }
+  ]
+}

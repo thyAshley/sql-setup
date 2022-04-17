@@ -1,0 +1,54 @@
+----------
+-- TEXT --
+----------
+CHAR(X) 
+store up to X characters; 
+shorter text will be space padded
+longer text will be denied
+
+VARCHAR(X)
+store up to X character;
+shorter stext will not be space padded
+longer text will be denied
+
+TEXT, LONGTEXT
+text of any size can be stored without specifing a max size (check docs)
+
+ENUM
+only value in enum are allowed
+
+
+-------------
+-- Numeric --
+-------------
+
+INT, SMALLINT
+integer number (check docs for specific)
+
+DECIMAL, NUMERIC
+- decimal number with a fixed precision (exact value)
+
+FLOAT, REAL
+- decimal number with floating points (approx values)
+
+
+----------
+-- Date --
+----------
+
+DATE 
+yyyy-mm-dd
+
+DATETIME, TIMESTAMP
+yyyy-mm-dd hh:mm:ss
+
+
+------------
+-- Others --
+------------
+
+BOOLEAN
+true false, 0 or 1
+
+JSON (no data normalization)
+JSON-formatted text data
