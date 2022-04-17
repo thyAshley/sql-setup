@@ -1,0 +1,8 @@
+unique ID => when storing data each data entry should have at least one unique value.
+generate unique and random string
+auto incrementing integers
+
+primary_key must always be unique
+`AUTO_INCREMENT` is an attribute like DEFAULT `CURRENT_TIMESTAMP`
+`SERIAL` data type is an int which is auto incremented. (AUTO_INCREMENT is only used by mysql, but serial is available on both postgres n mysql)
+using SERIAL in mysql will result in an BIGINT instead of an INT
