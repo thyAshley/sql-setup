@@ -1,0 +1,1 @@
+DELETE from city WHERE name = 'Tokyo';

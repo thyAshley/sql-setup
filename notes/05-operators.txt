@@ -1,0 +1,29 @@
+Numbers
+
++ : Add
+- : Subtract
+* : Multiply
+/ : Divide
+^ : Exponent
+|/ : Square Root
+@ : Absolute Value
+% : Remainder
+
+
+Strings
+
+|| : Join Strings
+CONCAT() : Join Strings
+LOWER() : Gives a lower case string
+UPPER(): Gives a upper case string
+LENGTH(): Get length of string
+
+Comparison
+= : Values equal
+> : Left greater
+< : Right greater
+>= : Greater or equal
+<> : Not equal : !=
+BETWEEN : value between 2 other values
+IN : Value present in list
+NOT IN : Value not present in a list

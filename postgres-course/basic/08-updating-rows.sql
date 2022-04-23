@@ -1,0 +1,1 @@
+UPDATE city SET population = 39505000 WHERE name = 'Brazil'

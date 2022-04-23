@@ -1,0 +1,17 @@
+Type of relationship
+One to One
+Many to Many
+One to Many / Many to one (inverse);
+
+Primary Key: Uniquely identify record in 1 table
+Foreign Key: identify record that row is associated with (usually in the Many side)
+
+Primary Key
+Each row has a primary Key
+Primary key is unique and will either be an id or UUID
+will never ever change for row
+
+Foreign Key
+many row in same table can have same foreign key (many to one relationship)
+foreign key refer to primary key in another table.
+will change if relationship changes
