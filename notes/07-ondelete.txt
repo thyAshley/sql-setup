@@ -1,0 +1,7 @@
+on delete
+
+ON DELETE RESTRICT (throw an error) [default]
+ON DELETE NO ACTION (throw an error)
+ON DELETE CASCADE (delete all foreign key and references)
+ON DELETE SET NULL (set reference to null)
+ON DELTET SET default (set reference to default value if there is any )
