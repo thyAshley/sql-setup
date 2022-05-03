@@ -1,0 +1,11 @@
+JOIN default = inner JOIN
+-> takes only what is intersecting on both table
+
+LEFT JOIN
+-> take everything on left table and join with right table, any missing info are fill with null
+
+RIGHT JOIN 
+-> vice versa of LEFT JOIN but taking everything on right table instead
+
+FULL JOIN
+-> return everything regardless of insection.

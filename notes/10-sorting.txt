@@ -1,0 +1,10 @@
+ORDER BY 
+default order is usually ascending
+
+order by can take in multiple variable and if first order is the same, the list is sorted by the second variable.
+
+OFFSET 
+to skip X number of item before returning the list
+
+LIMIT
+to only fetch X number of item

@@ -1,0 +1,17 @@
+GROUP BY
+reduces many row down to fewer rows
+only group by columns can be selected.
+
+AGGREGRATES
+reduces many values down to one value
+COUNT() => return number of values in a group of values
+SUM() => find a sum of a group of numbers
+AVG() => find the average of a group of numbers
+MIN() => return the minimum value from a group
+MAX() => return the maximum value from a group
+
+
+COUNT() gotcha => total COUNT
+null values are not counted and are ignore so to get real count, we usually use primary key/unique identifier or COUNT(*)
+
+HAVING - action on GROUP BY groups

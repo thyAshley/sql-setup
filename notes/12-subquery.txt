@@ -1,0 +1,5 @@
+subquery can be a additional query statement in either
+the select statement,
+the from statement,
+the join statement,
+the where statement,

@@ -1,0 +1,11 @@
+union will remove duplicate 
+union all will show all item and not remove duplicate
+(SELECT CONDITION) UNION (SELECT CONDITION)
+
+UNION join together and remove duplicate
+UNION ALL join together 
+
+INTERSECT find row common and remove duplicates
+EXCEPT find row in first query that is not in second
+
+UNION and INTERSECT does not matter order but EXCEPT order does matter as it filter the first query
