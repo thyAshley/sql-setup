@@ -1,5 +1,11 @@
 subquery can be a additional query statement in either
 the select statement,
-the from statement,
+the from statement (subquery must have an alias),
 the join statement,
 the where statement,
+
+WHERE clause
+Single Value: >, <, >=, <=, =, <>, !=
+Single column: IN, NOT IN, (operator) (ALL | SOME | ANY)
+
+correlated subqueries is a subquery that refers to a column of a table that is not in its FROM clause.
