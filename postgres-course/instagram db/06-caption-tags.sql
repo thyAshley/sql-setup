@@ -1,0 +1,7 @@
+CREATE TABLE caption_tags (
+    id SERIAL PRIMARY KEY,
+    user_id INTEGER NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+    post_id INTEGER NOT NULL REFERENCES posts(id) ON DELETE CASCADE,
+    created_at TIMESTAMP WITH TIME ZONE default CURRENT_TIMESTAMP,
+    UNIQUE(user_id, post_id)
+)
